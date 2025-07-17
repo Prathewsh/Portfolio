@@ -1,0 +1,129 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ml-3 {
+  margin-left: 30px;
+}
+
+.dashed-left {
+  border-left: 1px dashed white;
+}
+
+.vscode-header {
+  background-color: #1e1e1e;
+  height: 32px;
+  color: #ccc;
+  font-size: 14px;
+  font-family: "Consolas", monospace;
+  border-bottom: 1px solid #333;
+}
+
+.window-controls .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+.window-controls .red {
+  background-color: #ff5f56;
+}
+
+.window-controls .yellow {
+  background-color: #ffbd2e;
+}
+
+.window-controls .green {
+  background-color: #27c93f;
+}
+
+.filename {
+  font-weight: bold;
+}
+
+.code-block {
+  /* background-color: #1e1e1e; */
+  color: #d4d4d4;
+  padding: 1.5rem;
+  overflow-x: auto;
+  font-family: "Consolas", monospace;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  white-space: pre;
+  border-left: 1px dashed white;
+}
+
+.keyword {
+  color: #569cd6;
+}
+.class,
+.type {
+  color: #4ec9b0;
+}
+.class-name {
+  color: #b8d7a3;
+}
+.function {
+  color: #dcdcaa;
+}
+.string {
+  color: #ce9178;
+}
+.number {
+  color: #b5cea8;
+}
+.comment {
+  color: #6a9955;
+  font-style: italic;
+}
+
+#profile_pic {
+  border: 1px solid #569cd6;
+  height: 200px !important;
+  border-radius: 0px !important;
+  margin-left: 30px;
+}
+
+.vscode-terminal {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: "Consolas", monospace;
+  font-size: 14px;
+  border-top: 1px solid #333;
+}
+
+.terminal-line {
+  display: flex;
+  align-items: center;
+  white-space: pre-wrap;
+}
+
+.prompt {
+  margin-right: 5px;
+}
+
+.command {
+  color: #9cdcfe;
+}
+
+.cursor {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
